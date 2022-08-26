@@ -53,15 +53,10 @@ a:hover{
 }
 
 .table{
-    display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-gap: 50px;
-    margin-top: 50px;
-    margin-left: 450px;
-    margin-right: 450px;
+    border-spacing: 3em;
     justify-content: center;
     justify-items: center;
-
+    margin: auto;
 }
 
 .menu{
@@ -74,6 +69,7 @@ a:hover{
     grid-gap: 20px;
     font-size: small;
     padding-bottom: 15px;
+    border: 1px solid lightgray;
 }
 
 .menu-1{
@@ -108,4 +104,9 @@ h5{
     color: white;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+button{
+    background-color: orange;
+    color: black;
 }
